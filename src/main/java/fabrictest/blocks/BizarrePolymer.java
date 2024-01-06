@@ -7,11 +7,8 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.WorldAccess;
 
 public class BizarrePolymer extends Block {
-    private UniformIntProvider experienceDropped;
-
     public BizarrePolymer(Settings settings, UniformIntProvider provider) {
         super(settings);
-        this.experienceDropped = provider;
     }
 
     @Override
