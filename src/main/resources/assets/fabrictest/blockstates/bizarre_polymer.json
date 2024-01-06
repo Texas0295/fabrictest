@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "fabrictest:block/bizarre_polymer" }
+  }
+}

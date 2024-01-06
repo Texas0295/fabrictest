@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "fabrictest",
+	"version": "${version}",
+	"name": "FabricTest",
+	"description": "Learn how to create a beautiful world with fabric",
+	"authors": [
+		"Texas0395"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/fabrictest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fabrictest.FabricTest"
+		],
+		"client": [
+			"fabrictest.FabricTestClient"
+		]
+	},
+	"mixins": [
+		"fabrictest.mixins.json",
+		{
+			"config": "fabrictest.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.19",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
