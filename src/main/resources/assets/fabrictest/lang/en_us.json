@@ -1,4 +1,5 @@
 {
   "item.fabrictest.cells": "細胞",
-  "block.fabrictest.bizarre_polymer": "奇異聚合體"
+  "block.fabrictest.bizarre_polymer": "奇異聚合體",
+  "block.fabrictest.cell_turned_polymer":"奇異胞質聚合體"
 }

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "fabrictest:block/cell_turned_polymer" }
+  }
+}

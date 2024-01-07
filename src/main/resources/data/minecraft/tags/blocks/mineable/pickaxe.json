@@ -1,6 +1,7 @@
 {
     "replace":false,
     "values":[
-        "fabrictest:bizarre_polymer"
+        "fabrictest:bizarre_polymer",
+        "fabrictest:cell_turned_polymer"
     ]
 }

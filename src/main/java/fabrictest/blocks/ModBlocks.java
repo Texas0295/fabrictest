@@ -7,12 +7,13 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block BIZARRE_POLYMER = ModBlocks.registerBlock("bizarre_polymer",
-            new BizarrePolymer(FabricBlockSettings.copy(Blocks.IRON_BLOCK), UniformIntProvider.create(0, 0)));
+            new BizarrePolymer(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
+    public static final Block CELL_TURNED_POLYMER = ModBlocks.registerBlock("cell_turned_polymer",
+            new CellTurnedPolymer(FabricBlockSettings.copy(Blocks.OBSIDIAN)));
 
     public static void register() {
 
