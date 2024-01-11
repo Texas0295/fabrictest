@@ -12,14 +12,14 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 
 public class ModConfiguredFeature {
 
-    public static final List<OreFeatureConfig.Target> OVERWORLD_BIZARRE_POLYMER = List.of(
-            OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
-                    ModBlocks.BIZARRE_POLYMER.getDefaultState()),
-            OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
-                    ModBlocks.BIZARRE_POLYMER.getDefaultState()));
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> BIZARRE_POLYMER = ConfiguredFeatures
-            .register("bizarre_polymer", Feature.ORE, new OreFeatureConfig(OVERWORLD_BIZARRE_POLYMER, 9));
+        public static final List<OreFeatureConfig.Target> OVERWORLD_BIZARRE_POLYMER = List.of(
+                        OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
+                                        ModBlocks.BIZARRE_POLYMER.getDefaultState()),
+                        OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
+                                        ModBlocks.BIZARRE_POLYMER.getDefaultState()));
+        public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> BIZARRE_POLYMER = ConfiguredFeatures
+                        .register("bizarre_polymer", Feature.ORE, new OreFeatureConfig(OVERWORLD_BIZARRE_POLYMER, 9));
 
-    public static void register() {
-    }
+        public static void register() {
+        }
 }

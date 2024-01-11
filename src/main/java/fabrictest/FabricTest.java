@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fabrictest.blocks.ModBlocks;
+import fabrictest.entries.DispenserBehaviors;
 import fabrictest.entries.ModEntities;
 import fabrictest.items.ModItems;
 import fabrictest.world.gen.ModWorldGeneration;
@@ -18,5 +19,6 @@ public class FabricTest implements ModInitializer {
 		ModItems.register();
 		ModEntities.register();
 		ModBlocks.register();
+		DispenserBehaviors.registerBehaviors();
 	}
 }

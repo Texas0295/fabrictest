@@ -40,6 +40,10 @@ public class CellEntity extends ThrownItemEntity {
 
     }
 
+    public CellEntity(World world, double x, double y, double z) {
+        super(ModEntities.THROWABLE_CELL_ENTRY_ENTITY_TYPE, x, y, z, world);
+    }
+
     @Override
     protected Item getDefaultItem() {
         return ModItems.CELLS;
