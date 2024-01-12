@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "fabrictest:block/unknown_machine" }
+    }
+}

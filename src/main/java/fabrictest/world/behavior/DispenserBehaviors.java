@@ -1,5 +1,6 @@
-package fabrictest.entries;
+package fabrictest.world.behavior;
 
+import fabrictest.entities.projectile.CellEntity;
 import fabrictest.items.ModItems;
 import net.minecraft.block.DispenserBlock;
 import net.minecraft.block.dispenser.ProjectileDispenserBehavior;

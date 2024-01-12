@@ -4,9 +4,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fabrictest.blocks.ModBlocks;
-import fabrictest.entries.DispenserBehaviors;
-import fabrictest.entries.ModEntities;
+import fabrictest.entities.ModEntities;
 import fabrictest.items.ModItems;
+import fabrictest.world.behavior.DispenserBehaviors;
 import fabrictest.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 

@@ -1,4 +1,4 @@
-package fabrictest.entries;
+package fabrictest.entities.projectile;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -7,6 +7,7 @@ import java.util.Optional;
 import com.google.common.collect.Sets;
 
 import fabrictest.blocks.ModBlocks;
+import fabrictest.entities.ModEntities;
 import fabrictest.items.ModItems;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.block.BlockState;

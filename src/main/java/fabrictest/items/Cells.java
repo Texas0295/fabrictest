@@ -1,6 +1,6 @@
 package fabrictest.items;
 
-import fabrictest.entries.CellEntity;
+import fabrictest.entities.projectile.CellEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -16,10 +16,10 @@ public class Cells extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
-        if (!world.isClient){
-            CellEntity entry = new CellEntity(world,user);
+        if (!world.isClient) {
+            CellEntity entry = new CellEntity(world, user);
             entry.setItem(itemStack);
-            entry.setVelocity(user,user.getPitch(),user.getYaw(),0.0f,1.5f,0f);
+            entry.setVelocity(user, user.getPitch(), user.getYaw(), 0.0f, 1.5f, 0f);
             world.spawnEntity(entry);
         }
         return TypedActionResult.success(user.getStackInHand(hand));

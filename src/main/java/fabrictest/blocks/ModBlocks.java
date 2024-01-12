@@ -3,6 +3,7 @@ package fabrictest.blocks;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,6 +15,8 @@ public class ModBlocks {
                         new BizarrePolymer(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
         public static final Block CELL_TURNED_POLYMER = ModBlocks.registerBlock("cell_turned_polymer",
                         new CellTurnedPolymer(FabricBlockSettings.copy(Blocks.OBSIDIAN)));
+        public static final Block UNKNOWN_MACHINE = ModBlocks.registerBlock("unknown_machine",
+                        new UnknownMachine(FabricBlockSettings.of(Material.STONE)));
 
         public static void register() {
 
