@@ -1,0 +1,10 @@
+{
+    "type":"minecraft:smelting",
+    "ingredient":{
+        "item":"fabrictest:cell_turned_polymer"
+    },
+    "result":"fabrictest:cell_turned_polymer_ingot",
+    "experience":10,
+    "cookingtime":400
+    
+}
