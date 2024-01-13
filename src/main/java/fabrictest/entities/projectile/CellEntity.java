@@ -29,20 +29,20 @@ public class CellEntity extends ThrownItemEntity {
     }
 
     public CellEntity(EntityType<? extends ThrownItemEntity> entityType, double d, double e, double f, World world) {
-        super(ModEntities.THROWABLE_CELL_ENTRY_ENTITY_TYPE, d, e, f, world);
+        super(ModEntities.CELL_ENTITY_TYPE, d, e, f, world);
     }
 
     public CellEntity(EntityType<? extends ThrownItemEntity> entityType, LivingEntity livingEntity, World world) {
-        super(ModEntities.THROWABLE_CELL_ENTRY_ENTITY_TYPE, livingEntity, world);
+        super(ModEntities.CELL_ENTITY_TYPE, livingEntity, world);
     }
 
     public CellEntity(World world, LivingEntity owner) {
-        super(ModEntities.THROWABLE_CELL_ENTRY_ENTITY_TYPE, owner, world);
+        super(ModEntities.CELL_ENTITY_TYPE, owner, world);
 
     }
 
     public CellEntity(World world, double x, double y, double z) {
-        super(ModEntities.THROWABLE_CELL_ENTRY_ENTITY_TYPE, x, y, z, world);
+        super(ModEntities.CELL_ENTITY_TYPE, x, y, z, world);
     }
 
     @Override
