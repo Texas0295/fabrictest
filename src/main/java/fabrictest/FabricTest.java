@@ -1,5 +1,6 @@
 package fabrictest;
 
+import fabrictest.commands.ModCommands;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,6 @@ public class FabricTest implements ModInitializer {
 		ModEntities.register();
 		ModBlocks.register();
 		DispenserBehaviors.registerBehaviors();
+		ModCommands.register();
 	}
 }
